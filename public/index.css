@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #23252C;
+    background-image: url(goat.png), url(goatflip.png);
+    background-repeat: no-repeat,no-repeat;
+    background-size: 150px, 150px;
+    background-position: right, left ;
+    background-attachment: fixed, fixed;
+}
+.container{
+    position: absolute;
+    left:30%;
+    top:5%;
+    width:40vw;
+    background-color: #1A1B21;
+}
+.portrait{
+    width: 100%;
+}
+.Navbar{
+    text-align: center;
+}
+.name{
+    margin: auto;
+    color:#FFFFFF;
+}
+.InstaIcon{
+    width:30px;
+}
+.Insta{
+    border: 0;
+    background-color: transparent;
+}
+.FacebookIcon{
+    width:30px;
+}
+.Face{
+    border: 0;
+    background-color: transparent;
+}
+h1{
+    color:white;
+}
+p{
+    color:white;
+    margin-top:-20px;
+}
+.Logo{
+    width: 50px;
+}
+.End{
+    margin-top: 50px;
+    border-top:3px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-color: gold;
+}
+/* body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
+} */
+
+/* .nav--logo_text, .nav--title {
+    margin: 0;
+}
+
+.nav--logo_text {
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav--title {
+    color: #DEEBF8;
+    font-weight: 600;
+} */
+
+/* .nav--icon {
+    height: 30px;
+    margin-right: 7px;
+} */
